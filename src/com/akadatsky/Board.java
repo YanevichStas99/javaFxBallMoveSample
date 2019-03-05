@@ -18,6 +18,7 @@ public class Board {
         shapes.add(new Ball(gc, 400, 400));
         shapes.add(new Ball(gc, 10, 300));
         shapes.add(new Square(gc, 25, 300));
+        shapes.add(new NewFigure(gc,50,50));
     }
 
     public void move() {
